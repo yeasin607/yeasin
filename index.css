@@ -107,7 +107,7 @@ background-position: center;
 }
 .home-text{
     padding-left: 15%;
-    padding-top:170px;
+    padding-top:150px;
 }
 .home-text p{
     font-size: 16px;
@@ -149,4 +149,26 @@ background-position: center;
     
     scroll-margin: 5px;
     transition: .4s;
+}
+@media only screen and (max-width:425px){
+    .home{
+        height: 400px;
+        overflow: hidden;
+        
+    }
+    .home-text{
+        padding-left: 10%;
+        padding-top: 80px;
+    }
+    .home-text p span{
+        font-size: 30px;
+        font-weight: 700;
+        color: #1C539D;
+        font-style: normal;
+        
+    }
+    .home .socialmedia{
+        margin-left: 10%;
+        margin-top: 20px;
+    }
 }
